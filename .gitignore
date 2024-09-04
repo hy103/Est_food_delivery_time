@@ -1,0 +1,15 @@
+# Virtual environment
+venv/
+eta/
+.venv/
+.eta/
+
+# Python-related files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# VSCode settings (optional, if you want to ignore VSCode-specific settings)
+.vscode/
