@@ -14,7 +14,9 @@ def main():
     logging.info("Loading data from CSV file")
     BASE_DIR = os.path.dirname(os.path.abspath(__file__))
     data_path = os.path.join(BASE_DIR, "../data/uber-eats-deliveries.csv")
+    print(data_path)
     df = pd.read_csv(data_path)
+    print(df.shape)
 
     ## data preprocessing and saving the data
     ## Refer data_preprocessing.py script for the preprocesing done on raw data
